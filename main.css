@@ -1,0 +1,211 @@
+html{
+  scroll-behavior: smooth;
+}
+/*Screen one style - Intro*/  /* Set a background image */
+  .header {
+    background-image: url('../PortfolioProject/images/portfoliobackgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+ /* Overlay on background image */
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: -moz-linear-gradient(top, rgba(48,207,208,0.8) 0%, rgba(51,8,103, 0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,rgba(36, 17, 143, 0.329)), color-stop(75%,rgba(40,50,75,0.5)));
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  /* Page title and intro text */
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: white;
+  }
+  .description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  /* Cal to action button  */
+  .description button {
+    border:1px solid white;
+    background:none;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:orangered;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+/*Contact top header - social media buttons*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+    
+}
+li{
+    float:inline-start ;
+}
+.fa-linkedin {
+        color:white;
+    transition: transform 500ms ease-in-out-back;
+    width: 80px;
+ }
+   .fa-instagram {
+    color:white;
+    transition: transform 500ms ease-in-out-back;
+    width: 80px;
+  }
+ 
+  .fa-github {
+    color:white;
+    transition: transform 500ms ease-in-out-back;
+    width: 80px;
+  }
+ 
+/*nav bar section*/
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+.navbar {
+    background:white;
+    font-size: 1.8rem;
+    font-weight: 1000;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    text-align: center;
+      
+    
+  }
+.navbar :hover {
+  border-bottom: 1px solid #333
+}
+  .nav-link,
+  .navbar-brand {
+    color: grey;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color:orange;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  
+  }
+
+  .navbar-toggler {
+    background: #333;
+  }
+
+/*About me  section*/
+.screengray{
+  background-image: url('../PortfolioProject/images/screenorange.png');
+  
+}
+
+/* Projects*/
+.screenorange {
+  background-image: url('../PortfolioProject/images/screengrisclair.png'); 
+
+}
+
+/* contactform style*/
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+  background-color: #ffbd59;
+  border: 1px solid #333;
+  color: #fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+/*footer*/
+footer{
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.428571429;
+box-sizing: border-box;
+display: block;
+text-align: center;
+overflow: hidden;
+background: #39373a;
+color: #FFF;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+h3{
+  text-align: center;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  border: 1px solid white
+}
+p {
+  text-align: justify;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}

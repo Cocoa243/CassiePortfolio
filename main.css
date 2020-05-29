@@ -3,7 +3,7 @@ html{
 }
 /*Screen one style - Intro*/  /* Set a background image */
   .header {
-    background-image: url('../PortfolioProject/images/portfoliobackgroundimage.jpg');
+    background-image: url('images/portfoliobackgroundimage.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
